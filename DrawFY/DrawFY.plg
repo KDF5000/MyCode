@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DrawFY - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\KDF5000\AppData\Local\Temp\RSPACA4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\git\KDF5000\DrawFY\DrawShape.cpp"
+]
+Creating command line "cl.exe @C:\Users\KDF5000\AppData\Local\Temp\RSPACA4.tmp" 
+Creating temporary file "C:\Users\KDF5000\AppData\Local\Temp\RSPACA5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib winmm.lib wininet.lib MSWSOCK.LIB /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DrawFY.pdb" /debug /machine:I386 /out:"Debug/DrawFY.exe" /pdbtype:sept 
+.\Debug\Main.obj
+.\Debug\MainDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\resource.res
+.\Debug\DrawShape.obj
+]
+Creating command line "link.exe @C:\Users\KDF5000\AppData\Local\Temp\RSPACA5.tmp"
+<h3>Output Window</h3>
+Compiling...
+DrawShape.cpp
+g:\git\kdf5000\drawfy\drawshape.cpp(15) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(15) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(15) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(15) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(61) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(61) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(68) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(68) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(75) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(75) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(82) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(82) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+g:\git\kdf5000\drawfy\drawshape.cpp(22) : warning C4101: 'j' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+DrawFY.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
